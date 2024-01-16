@@ -573,13 +573,19 @@ img {
     position: relative;
 }
 
-/* .newsletter-rectangle {
+.newsletter__rectangle {
     height: 80px;
     width: 150px;
     border-radius: 10.569px;
     background: #FF5400;
     position: absolute;
-} */
+    top: 70%;
+    left: 65%;
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-25deg);
+    text-align: center;
+}
 
 /* footer section */
 
