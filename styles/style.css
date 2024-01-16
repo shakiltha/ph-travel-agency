@@ -480,3 +480,8 @@ img {
     justify-content: space-around;
     align-items: center;
 }
+
+.see-all-package-btn {
+    margin-left: 45%;
+    text-align: center;
+}
