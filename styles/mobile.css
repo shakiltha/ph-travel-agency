@@ -570,3 +570,66 @@ svg {
     width: 450px;
     height: 500px;
 }
+
+/* newsletter section starting */
+
+.newsletter {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.newsletter1 {
+    width: 450px;
+    height: 422px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter__title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 40px 0 20px 30px;
+}
+
+.newsletter__description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+}
+
+.newsletter input {
+    display: block;
+    width: 393px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 20px 30px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.subscribe {
+    width: 393px;
+    height: 52px;
+    margin-left: 30px;
+}
+
+.newsletter2 {
+    display: flex;
+    justify-content: center;
+}
+
+.waterfall-mountain {
+    width: 450px;
+    height: 500px;
+}
