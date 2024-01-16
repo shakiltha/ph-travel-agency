@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom properties / variables definition */
+
+:root {
+    --dark-1: #131318;
+    --dark-2: #424247;
+    --dark-3: #F3F3F3;
+    --primary-btn: #FF5400;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header section */
+
+.header {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 2px solid */
+}
+
+.header__img-title {
+    display: flex;
+}
+
+.header__title {
+    margin-left: 20px;
+    line-height: 48px;
+    color: #131318;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.header__title .fly {
+    color: #FF5400;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.header__nav ul {
+    list-style: none;
+    display: none;
+}
+
+.header__hamburger {
+    margin-top: 10.25px;
+    cursor: pointer;
+}
+
+.header__section-1,
+.header__section-2,
+.header__section-3 {
+    border-bottom: 3px solid;
+    padding: 3px 15px 3px;
+}

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom properties / variables definition */
+
+:root {
+    --dark-1: #131318;
+    --dark-2: #424247;
+    --dark-3: #F3F3F3;
+    --primary-btn: #FF5400;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header section */
+
+.header {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__img-title {
+    display: flex;
+}
+
+.header__title {
+    margin-left: 20px;
+    line-height: 48px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.header__title .fly {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.header__nav ul {
+    list-style: none;
+}
+
+.header__nav ul li {
+    text-decoration: none;
+}
+
+.header__nav ul li .home {
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header__nav ul li a {
+    line-height: 48px;
+    text-decoration: none;
+    color: var(--dark2);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 2px;
+}
+
+.header__nav ul li a:hover {
+    background-color: rgb(236, 235, 235);
+    border-radius: 5px;
+}
