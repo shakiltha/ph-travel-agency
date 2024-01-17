@@ -767,6 +767,66 @@ svg {
 /* extra small */
 
 @media screen and (max-width: 420px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .explore-container {
+        margin-left: 25px;
+    }
+
+    .popular-tours {
+        margin-left: 25px;
+    }
+
+    .choose-destination {
+        margin-left: 25px;
+    }
+
+    .choose__title,
+    .choose__description {
+        margin-left: 35px;
+    }
+
+    .why-choose-us {
+        margin-left: 50px;
+    }
+
+    .why__title,
+    .why__description {
+        margin-left: 25px;
+    }
+
+    .deals-discounts {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .deals__title,
+    .deals__description {
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .hidden-box1 {
+        display: none;
+    }
+
+    .card-4,
+    .card-5,
+    .card-6 {
+        margin-left: 25px;
+    }
+
+    .get-lost {
+        margin-left: 25px;
+    }
+
+    .newsletter {
+        margin-left: 25px;
+    }
+
     .waterfall-mountain {
         width: 435px;
         height: 300px;
