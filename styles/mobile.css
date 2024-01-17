@@ -29,6 +29,7 @@
 }
 
 body {
+    width: 100%;
     background-color: rgb(255, 255, 255);
     font-family: 'Mulish', sans-serif;
 }
@@ -257,7 +258,7 @@ svg {
 }
 
 .choose__images {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,6 +270,37 @@ svg {
 .img-group3 {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+}
+
+.img__country-name1,
+.img__country-name2,
+.img__country-name3,
+.img__country-name4,
+.img__country-name5,
+.img__country-name6,
+.img__country-name7 {
+    position: relative;
+}
+
+.country__name-box1,
+.country__name-box2,
+.country__name-box3,
+.country__name-box4,
+.country__name-box5,
+.country__name-box6,
+.country__name-box7 {
+    width: 450px;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .destination-img {
@@ -280,7 +312,10 @@ svg {
 /* why choose us section */
 
 .why-choose-us {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px;
+    margin-left: 25px; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .why__title {
@@ -379,6 +414,8 @@ svg {
 /* image group 4 section */
 
 .img-group4 {
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
@@ -386,8 +423,9 @@ svg {
 
 .card-4 {
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 303px;
     height: 300px;
     display: flex;
@@ -396,7 +434,7 @@ svg {
 }
 
 .hidden-box1 {
-    visibility: hidden;
+    display: none;
 }
 
 .card-box1 {
@@ -479,8 +517,9 @@ svg {
 /* card 5 section */
 .card-5 {
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 303px;
     height: 300px;
     display: flex;
@@ -496,8 +535,9 @@ svg {
 /* card 6 section */
 .card-6 {
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 303px;
     height: 300px;
     display: flex;
@@ -606,20 +646,35 @@ svg {
 
 .newsletter2 {
     position: relative;
+    width: 500px;
 }
 
 .newsletter__rectangle {
-    height: 80px;
-    width: 150px;
-    border-radius: 10.569px;
+    border-radius: 16px;
     background: #FF5400;
     position: absolute;
-    top: 70%;
+    top: 62%;
     left: 50%;
-    width: 214.023px;
-    height: 79.268px;
-    transform: rotate(-25deg);
+    width: 214px;
+    height: 79px;
+    transform: rotate(-17deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletter__para1 {
+    color: #FFF;
     text-align: center;
+    font-size: 15.854px;
+    font-weight: 400;
+}
+
+.newsletter__para2 {
+    color: #FFF;
+    font-size: 21.138px;
+    font-weight: 800;
 }
 
 .newsletter input {
@@ -643,18 +698,21 @@ svg {
 }
 
 .newsletter2 {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .waterfall-mountain {
     width: 450px;
-    height: 500px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 /* footer section */
 
 .footer {
+    margin: 0 auto;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -671,22 +729,16 @@ svg {
     justify-content: center;
     line-height: 40px;
     color: var(--Dark-01, #131318);
-    font-family: Mulish;
     font-size: 32px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
 .travel {
     color: #FF5400;
-    font-family: Mulish;
     font-size: 32px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 .footer__description {
@@ -710,4 +762,23 @@ svg {
 .copyright {
     text-align: center;
     margin-top: 40px;
+}
+
+/* extra small */
+
+@media screen and (max-width: 420px) {
+    .waterfall-mountain {
+        width: 435px;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    .footer {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba(19, 19, 24, 0.05);
+    }
 }
